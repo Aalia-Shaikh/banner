@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding :0;
+    overflow-x: hidden;
+    font-family: 'Karla', sans-serif;
+    
+}
+.entire-banner{
+    border: 1px solid gray;
+    width : 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(248, 246, 246);
+}
+.parent{
+    /* border: 1px solid gray; */
+    
+    margin: 20px; /* 1st empty space from top */
+}
+#b-align{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.left-child{
+    width: 48.5%;
+    float : left;
+    /* border: 1px solid gray; */
+    
+}
+.right-child{
+    width: 48.5%;
+    float : right;
+    /* border: 1px solid gray; */
+    /* display: inline-block;
+    margin-left: 40px; */
+}
+.v-line{
+    display: inline-block;
+    border-left: 2px dashed rgb(81, 231, 241);
+    margin: 0 10px;
+    height: 1145px;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    /* border-spacing: 0px; */
+    /* text-transform: uppercase; */
+}
+.design{
+    font-family: 'Roboto', sans-serif;
+}
+.obs{
+    color: rgb(81, 231, 241);
+    font-weight: bold; 
+    font-style: oblique; 
+    margin-left: 2px; 
+    text-align: center;
+}
+.info{
+    color:rgb(255, 196, 0); 
+    font-style: oblique; 
+    text-align: right;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    color:gray ;
+    text-align: left;
+    font-weight: bold;
+}
+.padding_15{
+    padding-bottom: 15px; 
+    margin-left: 60px;
+}
+.padding_10{
+    
+    padding-bottom: 10px;
+}
+.margin_10{
+    margin-bottom: 10px;
+}
+.margin_20{
+    margin-top: 20px;
+}
+.b_label{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    background-color:rgb(81, 231, 241);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#icee{
+    float: right;  
+    width: 150px; 
+    padding-right: 10px;
+    height:120;
+}
+.blue{
+    color: rgb(60, 60, 131);
+    margin-top: 0px;
+    font-weight: bolder; 
+    font-size: 30px;
+}
+.row1 {
+    display: flex;
+  }
+  
+.col {
+    flex: 33.33%;
+    padding: 20px;
+    width: 99px;
+    height: 120;
+}
+table{
+    width:100%;
+}
+.r-row{
+    height:90px;
+    text-align: center;
+}
+.right_td{
+    padding:20px;
+}
+.align-left{
+    text-align: center;
+}
+.b-r-row{
+    height:115px;
+    font-size: small;
+}
+.healthy{
+    width: 120px;
+    height: 100px;
+}
+.rowa{
+    width: 90px;
+    
+}
+.rowb{
+    align-content: initial;
+    height: 40px;
+}
+.safety{
+    padding-left: 10px;
+    align-content: initial;
+    width: 99px;
+    height: 70px;
+}
